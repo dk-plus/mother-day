@@ -71,14 +71,16 @@ body {
 	align-items: center;
 }
 .wrapper {
+	width: 70%;
+	height: 70%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .img {
-	width: 100px;
-	height: 100px;
+	width: 50%;
+	height: 50%;
 	background: url('http://sandbox.runjs.cn/uploads/rs/200/ycdwfpfn/timg.jpg') no-repeat;
 	background-size: 100%;
 }
@@ -87,7 +89,7 @@ body {
 	justify-content: center;
 }
 .font {
-	font-size: 24px;
+	font-size: 50px;
 	color: #777;
 }
 .font:nth-child(1) {
@@ -106,6 +108,6 @@ body {
 	animation: bounce 1s 0.8s infinite;
 }
 .tips {
-	font-size: 14px;
+	font-size: 24px;
 	color: #666;
 }
